@@ -5,7 +5,7 @@ from selenium import webdriver
 
 
 PATH = "C:\Program Files (x86)\chromedriver.exe"
-URL = "https://twitter.com/mattlorenzo_"
+URL = "https://google.com"
 driver = webdriver.Chrome(PATH)
 driver.get(URL)
 
